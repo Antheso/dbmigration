@@ -1,0 +1,24 @@
+{
+  "name": "shopbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/script.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node build/script.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently --kill-others \"tsc -w\" \"nodemon --watch build bin/www.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.2",
+    "express": "^4.17.0",
+    "mysql": "^2.17.1",
+    "typescript": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^8.10.2",
+    "concurrently": "^3.5.1"
+  }
+}

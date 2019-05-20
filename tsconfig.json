@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["es6", "dom"],
+    "module": "commonjs",
+    "removeComments": true,
+    "sourceMap": true,
+    "outDir": "build",
+    "rootDir": "src",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
